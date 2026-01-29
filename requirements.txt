@@ -5,3 +5,6 @@ mftool
 yfinance
 plotly
 deprecated
+scipy
+matplotlib
+
