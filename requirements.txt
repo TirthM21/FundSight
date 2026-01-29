@@ -4,3 +4,4 @@ numpy
 mftool
 yfinance
 plotly
+deprecated
