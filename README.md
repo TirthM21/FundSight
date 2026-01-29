@@ -25,6 +25,8 @@ Most platforms show "Point-to-Point" returns (e.g., "5 Year Return: 15%"). This 
 *   **Distribution Charts**: See the probability of negative vs. positive returns.
 *   **Advanced Risk Metrics**: Sharpe Ratio, Sortino Ratio, Calmar Ratio, Max Drawdown, and Beta.
 *   **Alpha Generation**: Calculate Jensen's Alpha and Information Ratio against customizable benchmarks.
+*   **Category Performance**: Compare category averages (e.g. Mid Cap vs Small Cap) for 1Y returns.
+*   **Debt Fund Metrics**: View YTM and Duration metrics for Debt funds.
 
 ### 🧬 Genetic Fund Ranking System
 *   **Customizable Scoring**: Don't rely on generic ratings. Create your own ranking model by adjusting weights for:
@@ -32,19 +34,20 @@ Most platforms show "Point-to-Point" returns (e.g., "5 Year Return: 15%"). This 
     *   Downside Risk (Sortino)
     *   Recovery Ability
     *   Expense Ratio
-*   **Smart Filtering**: Automatically strips out IDCW (Dividend) plans, showing only **Growth** options for pure analysis.
+*   **Smart Filtering**: automatically strips out IDCW (Dividend), Bonus, and Institutional plans, showing only **Growth** options for pure analysis.
 
 ### 🔄 Quantitative Strategy Backtesting
 *   **Sector Rotation Model**: Test institutional-grade momentum strategies.
-    *   *Strategy*: Buy top N performing sectors (e.g., Bank, IT, Pharma).
+    *   *Strategy*: Buy top N performing sectors (e.g., Bank, IT, Pharma) based on past returns.
     *   *Parameters*: Customize Lookback Period (3-12m) and Rebalance Frequency.
     *   *Result*: View Equity Curve, CAGR, and Drawdowns vs. Buy & Hold.
-*   **Stress Testing**: Simulate how your portfolio would have performed during historic crashes (2008 Financial Crisis, 2020 Covid Crash).
+*   **Stress Testing**: Simulate how your portfolio would have performed during customized market shock scenarios (-10% to -50%).
 
 ### 🛠️ Portfolio Tools
-*   **Auto-Portfolio Construction**: Get suggestions based on risk profile (Conservative, Moderate, Aggressive).
-*   **Portfolio Builder**: Allocate weights and analyze aggregate stats.
-*   **Correlation Matrix**: Check overlapping risks in your portfolio.
+*   **Auto-Portfolio Construction**: Get suggestions based on risk profile (Conservative, Moderate, Aggressive) and Capital.
+*   **Portfolio Builder**: Allocate weights manually and analyze aggregate stats.
+*   **Correlation Matrix**: Check overlapping risks in your portfolio with a heatmap.
+*   **Wealth Calculator**: Estimate future wealth with SIP/Lumpsum tools.
 
 ---
 
@@ -93,6 +96,12 @@ Go to **Advanced Analysis > Sector Rotation**.
 *   Pick sectors (Auto, Bank, IT, etc.).
 *   Set Lookback to **6 Months** and Rebalance to **Monthly**.
 *   Click **Run Backtest** to see if Momentum beats the market.
+
+### 5. 📉 Stress Test
+Go to **Advanced Analysis > Stress Test**.
+*   Select your funds.
+*   Simulate a **30% Market Crash** over 12 months.
+*   See how much your portfolio would theoretically lose.
 
 ---
 
